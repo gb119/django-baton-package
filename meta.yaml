@@ -16,9 +16,11 @@ build:
 
 requirements:
   host:
+    - django
     - python
     - pip
   run:
+    - django
     - python
 
 test:
@@ -38,4 +40,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - gb119
+    - http://github.com/gb119
