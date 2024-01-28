@@ -1,0 +1,41 @@
+{% set name = "django-baton" %}
+{% set version = "2.9.1" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/django-baton-{{ version }}.tar.gz
+  sha256: 924b0fd478929bb7eb4da7e61fca3e45383b8d888d5baf0d2c61409fc3ce2fbd
+
+build:
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
+  number: 0
+
+requirements:
+  host:
+    - python
+    - pip
+  run:
+    - python
+
+test:
+  imports:
+    - baton
+  commands:
+    - pip check
+  requires:
+    - pip
+
+about:
+  home: http://github.com/otto-torino/django-baton
+  summary: A cool, modern and responsive django admin application
+  dev_url: http://github.com/otto-torino/django-baton
+  license: MIT
+  license_file: LICENSE
+
+extra:
+  recipe-maintainers:
+    - gb119
