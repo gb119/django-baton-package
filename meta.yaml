@@ -1,5 +1,5 @@
 {% set name = "django-baton" %}
-{% set version = "2.9.1" %}
+{% set version = "3.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/django-baton-{{ version }}.tar.gz
-  sha256: 924b0fd478929bb7eb4da7e61fca3e45383b8d888d5baf0d2c61409fc3ce2fbd
+  sha256: a1ef3fce5ecd51ea088f9dc69e84f6599ea1b4f36425ab080d8405732e8a547c
 
 build:
   noarch: python
