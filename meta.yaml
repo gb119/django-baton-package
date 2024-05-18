@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/django-baton-{{ version }}.tar.gz
-  sha256: a1ef3fce5ecd51ea088f9dc69e84f6599ea1b4f36425ab080d8405732e8a547c
+  sha256: fb43e839a9834441dc4a241bb4f52f5e68ff5c9580362cc6d1a6e032f9d7970b
 
 build:
   noarch: python
