@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/django-baton-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/64/66/4db25548d99840850044cda59b4c0e5c98d631662eeb6f6b9851f186b0a2/django_baton-4.2.2.tar.gz
   sha256: eb5cf93370f6d042c10a68807c4335775972c3ce2a3c334d06b73e628f92ffa1
 
 build:
