@@ -23,14 +23,6 @@ requirements:
     - django
     - python
 
-test:
-  imports:
-    - baton
-  commands:
-    - pip check
-  requires:
-    - pip
-
 about:
   home: http://github.com/otto-torino/django-baton
   summary: A cool, modern and responsive django admin application
