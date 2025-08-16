@@ -1,13 +1,13 @@
 {% set name = "django-baton" %}
-{% set version = "4.2.2" %}
+{% set version = "5.0.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/64/66/4db25548d99840850044cda59b4c0e5c98d631662eeb6f6b9851f186b0a2/django_baton-4.2.2.tar.gz
-  sha256: eb5cf93370f6d042c10a68807c4335775972c3ce2a3c334d06b73e628f92ffa1
+  url: https://files.pythonhosted.org/packages/76/43/f77c8f4cb326f552708647e973dec5c915d1c2ae7659f102bdf9f839bcec/django_baton-5.0.2.tar.gz
+  sha256: 45e11b58caa577e2bcb3086aa60d4b5f81822308d1b9bb583c79bc0b1c59f4e4
 
 build:
   noarch: python
@@ -33,3 +33,4 @@ about:
 extra:
   recipe-maintainers:
     - http://github.com/gb119
+
