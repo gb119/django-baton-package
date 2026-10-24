@@ -1,13 +1,13 @@
 {% set name = "django-baton" %}
-{% set version = "5.0.2" %}
+{% set version = "5.9.3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/76/43/f77c8f4cb326f552708647e973dec5c915d1c2ae7659f102bdf9f839bcec/django_baton-5.0.2.tar.gz
-  sha256: 45e11b58caa577e2bcb3086aa60d4b5f81822308d1b9bb583c79bc0b1c59f4e4
+  url: https://files.pythonhosted.org/packages/83/95/a7a4af30d39122a63d8869a1c4fc3c240a831589ca7279a77b483d0f5f85/django_baton-5.9.3.tar.gz
+  sha256: b9170d6c57f4e1afc86f1155aa36c47a90cc0fd772bb99f6b76c89548213a340
 
 build:
   noarch: python
