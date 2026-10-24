@@ -19,6 +19,7 @@ requirements:
     - django
     - python
     - pip
+    - setuptools
   run:
     - django
     - python
